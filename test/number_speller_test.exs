@@ -1,7 +1,7 @@
-defmodule IntAsWordsTest do
+defmodule NumberSpellerTest do
   use ExUnit.Case
-  doctest IntAsWords
-  import IntAsWords
+  doctest NumberSpeller
+  import NumberSpeller
 
   describe "as_words/1" do
     test "0 to 19" do

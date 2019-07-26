@@ -1,4 +1,4 @@
-defmodule IntAsWords do
+defmodule NumberSpeller do
   def as_words(0), do: "zero"
 
   def as_words(int) when is_integer(int) do

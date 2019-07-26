@@ -1,9 +1,9 @@
-defmodule IntAsWords.MixProject do
+defmodule NumberSpeller.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :int_as_words,
+      app: :number_speller,
       version: "0.1.0",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
